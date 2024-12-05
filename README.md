@@ -1,15 +1,25 @@
 # Customer-Churn-Prediction
+
 Customer Churn Prediction on Telecom Dataset
+
 Telecom Customer Churn Prediction
+
 Overview
+
 This project focuses on predicting customer churn in the telecom industry. The application uses machine learning to identify customers likely to churn, helping telecom companies take proactive measures to retain them.
 
 Features
+
 Predict churn probability based on customer data.
+
 User-friendly interface built with Streamlit.
+
 Scalable preprocessing with feature encoders and scaling techniques.
+
 Model trained and saved for real-time predictions.
+
 Dataset
+
 The dataset used includes customer-specific features such as:
 
 ● state: Categorical, for the 51 states and the District of Columbia.
@@ -55,20 +65,35 @@ The dataset used includes customer-specific features such as:
 ● churn: Categorical, yes or no. Indicator of whether the customer has left the company (yes or no).
 
 Technologies Used
+
 Python for data processing and modeling.
+
 Streamlit for building the web interface.
+
 Pickle for loading trained models and encoders.
+
 NumPy and Pandas for data manipulation.
+
 Machine Learning Model: Pretrained and loaded for real-time predictions.
+
 Application Workflow
+
 Input: Users provide customer data via the web interface.
+
 Processing:
+
 Encodes categorical features.
+
 Scales numeric features using a trained scaler.
+
 Prediction:
+
 Runs the data through the model to predict churn probability.
+
 Displays whether the customer is likely to churn.
+
 Installation
+
 Clone the repository:
 
 bash
