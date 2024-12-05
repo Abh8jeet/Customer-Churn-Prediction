@@ -2,7 +2,7 @@
 
 Customer Churn Prediction on Telecom Dataset
 
-Telecom Customer Churn Prediction
+# Telecom Customer Churn Prediction
 
 Overview
 
@@ -92,33 +92,3 @@ Runs the data through the model to predict churn probability.
 
 Displays whether the customer is likely to churn.
 
-Installation
-
-Clone the repository:
-
-bash
-Copy code
-git clone <repo-url>
-cd telecom-churn-prediction
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Streamlit app:
-
-bash
-Copy code
-streamlit run Churn_prediction_app.py
-Files in the Repository
-Churn_prediction_app.py: Main application file for Streamlit.
-model_and_encoders.pkl: Contains the pre-trained model, encoders, and scaler.
-requirements.txt: List of dependencies.
-Usage
-Launch the app.
-Enter customer details in the provided fields.
-Click Predict Churn to see the prediction result.
-Future Improvements
-Incorporate additional customer data for more robust predictions.
-Extend support for batch predictions.
-Add visualizations for model interpretability.
